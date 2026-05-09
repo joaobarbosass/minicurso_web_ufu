@@ -210,7 +210,7 @@ a:focus-visible {
     outline-offset: 3px;
 }
 
-.btn.btn-voltar-topo.escondendo {
+.btn-voltar-topo.escondendo {
     opacity: 0;
     pointer-events: none;
 }
