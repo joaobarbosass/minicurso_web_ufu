@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+        <title>Aula</title>
+    </head>
+    <body>
+        <header class="perfil-hero" id="topo">
+            <h1>João Vitor Barbosa</h1>
+            <nav class="perfil-hero__nav" aria-label="Ir para seção">
+    <a href="#sobre">Sobre</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contato">Contato</a>
+  </nav>
+        </header>
+        <main class="perfil-main">
+            <section class="cartao" id="sobre">
+                <h2>Sobre mim</h2>
+                <p>Eu sou um estudante web</p>
+                <img class="foto-perfil"
+                    src="Joao_Vitor.jpg"
+                    alt="Foto João Vitor"
+                    width="300px"
+                    height="300px"
+                />
+            </section>
+
+            <section class="cartao" id="habilidades">
+                <h2>Habilidades</h2>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="perfil-rodape" id="contato">
+            <h2>Contatos</h2>
+            <table>
+                <caption>
+                    Onde me encontrar
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Rede</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <tr>
+                        <td>LinkedIn</td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/joão-vitor-barbosa-a97261359/"
+                                >LinkedIn</a
+                            >
+                        </td>
+                    </tr>
+                        <td>GitHub</td>
+                        <td>
+                            <a href="https://github.com/joaobarbosass"
+                                >GitHub</a
+                            >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Instagram</td>
+                        <td>
+                            <a href="https://www.instagram.com/joaobarbosasc/"
+                                >Instagram</a
+                            >
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="perfil-rodape__extras" id="msg-visita" role="status"></p>
+  <p class="perfil-rodape__copy">
+    © <span id="rodape-ano"></span> João Vitor Barbosa. Todos os direitos reservados.
+  </p>
+        </footer>
+        <button type="button" id="btn-voltar-topo" class="btn-voltar-topo escondendo" aria-label="Voltar ao topo">↑</button>
+
+    </body>
+</html>
